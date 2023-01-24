@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
 	name="lyrics-hunter",
-	version="0.0.1",
+	version="1.0.0",
 	author="Ayush Lakra",
 	author_email="ayushlakra846@gmail.com",
 	packages=["lyrics-hunter", "lyrics-hunter.hunter"],
