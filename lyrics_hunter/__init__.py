@@ -1,1 +1,1 @@
-from lyrics_hunter.lyrics_hunter import hunter
+
