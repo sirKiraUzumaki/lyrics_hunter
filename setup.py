@@ -15,5 +15,5 @@ setuptools.setup(
 	url="https://github.com/sirKiraUzumaki/lyrics_hunter",
 	license='MIT',
 	python_requires='>=3.7',
-	install_requires=['BeautifulSoup', 'requests']
+	install_requires=['beautifulsoup4', 'requests']
 )
