@@ -2,19 +2,20 @@
 Lyrics Hunter is a python library to scrape lyrics from websites. It is a web scraping library designed to extract song lyrics from websites. The library currently only supports scraping from lyrics.com but in near future, it will support more websites.
 
 # Installation
-`pip install lyrics-hunter`
+```pip install lyrics-hunter```
 
 # Usage
 To use Lyrics Hunter, you will first need to import the library into your Python script using the following code:
 
-`import lyrics_hunter`
+```import lyrics_hunter```
 
 To retrieve lyrics for a particular song use the search function:
 
-`lyrics_hunter.search(<song name>)`
+```lyrics_hunter.search(<song name>)```
 
 This will result in a dictionary containing Song Title,  Artist, Album, Lyrics, Album Art, Artist Art, and Song Art.
-`{
+```
+{
             'title': title,
             'artist': artist,
             'album': album,
@@ -24,16 +25,20 @@ This will result in a dictionary containing Song Title,  Artist, Album, Lyrics, 
                 'artist': artist_art,
                 'song': song_art
             }
-}`
+}
+```
+
 
 # Example
-code:
-`import lyrics_hunter
+Code:
+```
+import lyrics_hunter
 
-print(lyrics_hunter.search("love story"))`
+print(lyrics_hunter.search("love story"))
+```
 
-output:
-`{
+Output:
+```{
     "title": "Love Story",
     "artist": "Taylor Swift",
     "album": "Fearless [Bonus Tracks #1]",
@@ -44,4 +49,4 @@ output:
         "song": "https://upload.wikimedia.org/wikipedia/en/0/01/Taylor_Swift_-_Love_Story.png"
     }
 }
-`
+```
